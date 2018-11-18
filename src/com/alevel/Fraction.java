@@ -16,6 +16,7 @@ public class Fraction {
 
     public Fraction mult(double fr) {
         Fraction second = convert(fr);
+        // TODO: simplify (reduce) the fraction, here and in other cases
         return new Fraction(this.x * second.x, this.y * second.y);
     }
 
